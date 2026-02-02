@@ -1,20 +1,43 @@
-# Prodigy InfoTech Data Science Internship
-## Task 01: Data Visualization
+### Task-01: Population Data Visualization
+
+**Internship:** Data Science Internship – Prodigy InfoTech
+
+---
 
 ### Objective
-The objective of this task is to create a visual representation of data to understand the distribution of a variable using charts.
+To visualize the distribution of a continuous and categorical variable using histogram and bar chart.
 
-### Task Description
-In this task, a bar chart or histogram is created to visualize the distribution of a categorical or continuous variable from the given dataset.
+---
 
-### Tools Used
-- Canva
+### Dataset
+**Source:** World Population Dataset (Kaggle)  
+**Description:** Country-wise population statistics across multiple years.
 
-### Repository Structure
-- data/ : Contains the dataset used for the task
-- visualization/ : Contains the generated chart image
+---
 
-### Learning Outcomes
-- Understood basic data visualization concepts
-- Learned how to represent data using bar charts or histograms
-- Gained experience in organizing a project using GitHub
+### Tools & Technologies
+- Python  
+- Pandas  
+- Matplotlib  
+- Jupyter Notebook  
+
+---
+
+### Visualizations
+1. **Histogram – Population Distribution (2020)**  
+   Visualizes how population values are distributed across countries.
+
+2. **Bar Chart – Top 10 Most Populated Countries (2020)**  
+   Highlights countries contributing most to the global population.
+
+---
+
+### Key Insights
+- The population distribution is highly right-skewed, indicating that most countries have relatively smaller populations.  
+- A small number of countries contribute disproportionately to the global population.  
+- China and India dominate global population figures, followed by a significant gap among other countries.
+
+---
+
+### Conclusion
+This task demonstrates basic exploratory data analysis (EDA) using real-world data and highlights the importance of visualization in understanding data patterns.
